@@ -1,0 +1,110 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: 'Vidaloka', serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:hover{
+	text-decoration: none;
+}
+/* Main CSS Stop */
+
+/* ==== Testimonial Carousel Section Start ==== */
+.author-bg-1{
+	background-image: url(../img/author-bg-1.jpg);
+}
+.author-bg-2{
+	background-image: url(../img/author-bg-2.jpg);
+}
+.author-bg-3{
+	background-image: url(../img/author-bg-3.jpg);
+}
+.testimonial-wrapper {
+  position: relative;
+}
+.testimonial-title {
+  position: absolute;
+  left: 0;
+  top: 65px;
+  font-size: 72px;
+  z-index: 2;
+}
+.testimonial-title span {
+  color: orange;
+}
+.testimonial-test {
+  font-size: 16px;
+  line-height: 1.9;
+  padding-top: 250px;
+  max-width: 40%;
+}
+.testimonial-author {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.testimonial-author i {
+  color: orange;
+  font-size: 25px;
+}
+.testimonial-author h3 {
+  font-size: 23px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.testimonial-author-bg {
+	position: absolute;
+	top: 0;
+	right: -7%;
+	height: 100%;
+	width: 62%;
+	background-size: cover;
+	background-position: center top;
+	background-color: #ddd;
+}
+.section-padding {
+  padding: 100px 0;
+}
+/* Carousel Css Code */
+.single-testimonial-item {
+  overflow: hidden;
+  position: relative;
+}
+.owl-carousel.testimonial-carousel {
+  width: 110%;
+}
+.testimonial-wrapper .testimonial-carousel .owl-nav button {
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  background: #fff;
+  color: #333;
+  text-align: center;
+  font-size: 35px;
+  line-height: 70px;
+}
+.testimonial-wrapper .testimonial-carousel .owl-nav button:hover{
+  background: #333;
+  color: #fff;
+}
+.testimonial-wrapper .testimonial-carousel .owl-nav{
+  text-align: center;
+  padding-right: 10%;
+  position: absolute;
+  bottom: 0;
+  width: 100%
+}
+.testimonial-wrapper .testimonial-carousel .owl-nav button:first-child{
+  background: orange;
+  color: #fff;
+}
+/* === Testimonial Carousel Section Stop ==== */
